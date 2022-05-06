@@ -7,7 +7,6 @@ activation function in the hidden layer. It turned out that it doesn't work well
 </ul>
 
 **Experimentating with convolutional and pooling layers**
-
 </ul>
 <li> Next I experimented with adding one more convolutional and one more pooling layer with same filter size. That means I added 
 
