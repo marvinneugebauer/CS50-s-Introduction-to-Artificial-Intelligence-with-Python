@@ -15,7 +15,7 @@ activation function in the hidden layer. It turned out that it doesn't work well
  
 </ul>
 
-**experimenting with different filter sizes**
+**Experimenting with different filter sizes**
 
 </ul>
  
