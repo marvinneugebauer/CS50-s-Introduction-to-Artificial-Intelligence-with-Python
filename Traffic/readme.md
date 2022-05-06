@@ -11,7 +11,7 @@ tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IM
 
 tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
 
-<li>Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size. First, I tried to reduce the filter size of both convolutional layers to 
+Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size. First, I tried to reduce the filter size of both convolutional layers to 
 
 tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
 
