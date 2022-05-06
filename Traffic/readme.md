@@ -15,7 +15,7 @@ tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
 
 tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
 
-That had a huge impact and the result was an accuracy of 0.9735. If I reduced only the filter size of the first convolutional layer from (32, (3, 3)  to (16, (3, 3) the effect was still huge, with an accuracy of 0.9423. That means the accuracywas a slightly worse.
+That had a huge impact and the result was an accuracy of 0.9735. If I reduced only the filter size of the first convolutional layer from (32, (3, 3)  to (16, (3, 3) the effect was still huge, with an accuracy of 0.9423. That means the accuracy was a slightly worse.
 
 <li> Contrary to the positive effect that occurred when reducing the filter sizes of the two convolutional layers from (32, (3, 3) to (16, (3, 3)), there isn't any positive effect by increasing the filters size of both convolutional layers to (64, (3, 3)). Here the result was an accuracy of 0.0514. Setting only the second convolutional layer to (64, (3, 3)) had no positive effect with an accuracy of 0.0538. 
 
