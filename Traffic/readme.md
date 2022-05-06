@@ -15,17 +15,12 @@ activation function in the hidden layer. It turned out that it doesn't work well
 
 **Experimenting with different filter sizes**
 
-</ul>
- 
-<li> First, I tried to reduce the filter size of both convolutional layers to 
-
-<li>  tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
-
-<li> That had a huge impact and the result was an accuracy of 0.9735. If I reduced only the filter size of the first convolutional layer from (32, (3, 3)  to (16, (3, 3) the effect was still huge, with an accuracy of 0.9423. That means the accuracy was a slightly worse.
-
-<li> Contrary to the positive effect that occurred when reducing the filter sizes of the two convolutional layers from (32, (3, 3) to (16, (3, 3)), there isn't any positive effect by increasing the filters size of both convolutional layers to (64, (3, 3)). Here the result was an accuracy of 0.0514. Setting only the second convolutional layer to (64, (3, 3)) had no positive effect with an accuracy of 0.0538. 
-
-<li> Furthermore, I observed that an increasing of the pooling filters size from pool_size=(2, 2) to pool_size=(3, 3) had a medium-sized negative effect on the performance of the neuronal network. The outcome was accuracy= 0.8012. A decreasing of the pooling layer filters was not reasonable because the original filter size was pool_size=(2, 2).
+</ul> 
+ <li> First, I tried to reduce the filter size of both convolutional layers to 
+ <li>  tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
+ <li> That had a huge impact and the result was an accuracy of 0.9735. If I reduced only the filter size of the first convolutional layer from (32, (3, 3)  to (16, (3, 3) the effect was still huge, with an accuracy of 0.9423. That means the accuracy was a slightly worse.
+ <li> Contrary to the positive effect that occurred when reducing the filter sizes of the two convolutional layers from (32, (3, 3) to (16, (3, 3)), there isn't any positive effect by increasing the filters size of both convolutional layers to (64, (3, 3)). Here the result was an accuracy of 0.0514. Setting only the second convolutional layer to (64, (3, 3)) had no positive effect with an accuracy of 0.0538. 
+ <li> Furthermore, I observed that an increasing of the pooling filters size from pool_size=(2, 2) to pool_size=(3, 3) had a medium-sized negative effect on the performance of the neuronal network. The outcome was accuracy= 0.8012. A decreasing of the pooling layer filters was not reasonable because the original filter size was pool_size=(2, 2).
 </ul>
 
  
@@ -39,4 +34,4 @@ activation function in the hidden layer. It turned out that it doesn't work well
 
 <li> As a result I recieved an accuracy of 0.8810 compared to 0.9735, which I got for the best configuration.
 </ul>
->xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
