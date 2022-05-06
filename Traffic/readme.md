@@ -6,7 +6,7 @@
 activation function in the hidden layer. It turned out that it doesn't work well, with a result accuracy= 0.0587.
 </ul>
 
-**Experimentating with convolutional and pooling layers**
+
 </ul>
 <li>Next I experimented with adding one more convolutional and one more pooling layer 
 with same filter size. That means I added 
@@ -18,6 +18,8 @@ tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
 Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size.
  
 </ul>
+
+**Experimentating with different filter sizes**
 
 </ul>
  
