@@ -9,14 +9,13 @@ activation function in the hidden layer. It turned out that it doesn't work well
 **Experimentating with convolutional and pooling layers**
 
 </ul>
-<li> Next I experimented with adding one more convolutional and one more pooling layer 
-with same filter size. That means I added 
+<li> Next I experimented with adding one more convolutional and one more pooling layer with same filter size. That means I added 
 
-tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
+<li> tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
 
-tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
+<li>  tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
 
-Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size.
+<li>  Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size.
  
 </ul>
 
