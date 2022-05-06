@@ -27,7 +27,7 @@ activation function in the hidden layer. It turned out that it doesn't work well
 
 <li> Furthermore, I observed that an increasing of the pooling filters size from pool_size=(2, 2) to pool_size=(3, 3) had a medium-sized negative effect on the performance of the neuronal network. The outcome was accuracy= 0.8012. A decreasing of the pooling layer filters was not reasonable because the original filter size was pool_size=(2, 2).
 </ul>
->xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
  
 **Experimenting with dropout sizes**
 
@@ -39,3 +39,4 @@ activation function in the hidden layer. It turned out that it doesn't work well
 
 <li> As a result I recieved an accuracy of 0.8810 compared to 0.9735, which I got for the best configuration.
 </ul>
+>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
