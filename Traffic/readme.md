@@ -1,4 +1,5 @@
-First, I started with an almost identical configuration (i.e. same number of convolutional and pooling layers, same number of sizes of filters for 
+<ul> 
+ First, I started with an almost identical configuration (i.e. same number of convolutional and pooling layers, same number of sizes of filters for 
 convolutional layers, etc.) as in handwriting.py from the lecture with one modification. The modification was that I used the sigmoid function as an 
 activation function in the hidden layer. It turned out that it doesn't work well, with a result accuracy= 0.0587.
 
@@ -27,3 +28,4 @@ tf.keras.layers.Dense(128, activation="sigmoid")
 tf.keras.layers.Dropout(0.5)
 
 As a result I recieved an accuracy of 0.8810 compared to 0.9735, which I got for the best configuration.
+</ul>
