@@ -9,7 +9,7 @@ activation function in the hidden layer. It turned out that it doesn't work well
 **Experimenting with convolutional and pooling layers**
 </ul>
 <li> Next I experimented with adding one more convolutional and one more pooling layer with same filter size. That means I added 
- tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)), tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
+ <li> tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)), tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
 <li>  Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size.
 </ul>
 
@@ -19,7 +19,7 @@ activation function in the hidden layer. It turned out that it doesn't work well
  
 <li> First, I tried to reduce the filter size of both convolutional layers to 
 
-tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
+<li> tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
 
 <li> That had a huge impact and the result was an accuracy of 0.9735. If I reduced only the filter size of the first convolutional layer from (32, (3, 3)  to (16, (3, 3) the effect was still huge, with an accuracy of 0.9423. That means the accuracy was a slightly worse.
 
