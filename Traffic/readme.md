@@ -1,16 +1,16 @@
 <ul> 
- First, I started with an almost identical configuration (i.e. same number of convolutional and pooling layers, same number of sizes of filters for 
-convolutional layers, etc.) as in handwriting.py from the lecture with one modification. The modification was that I used the sigmoid function as an 
+ <li>First, I started with an almost identical configuration (i.e. same number of convolutional and pooling layers, same number of sizes of filters for 
+ convolutional layers, etc.) as in handwriting.py from the lecture with one modification. The modification was that I used the sigmoid function as an 
 activation function in the hidden layer. It turned out that it doesn't work well, with a result accuracy= 0.0587.
 
-Next I experimented with adding one more convolutional and one more pooling layer 
+<li>Next I experimented with adding one more convolutional and one more pooling layer 
 with same filter size. That means I added 
 
 tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
 
 tf.keras.layers.MaxPooling2D(pool_size=(2, 2)).
 
-Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size. First, I tried to reduce the filter size of both convolutional layers to 
+<li>Adding both, the convolutional and the pooling layer, doesn't show any positive effect, and the result was an accuracy of 0.0544. So I changed filter size. First, I tried to reduce the filter size of both convolutional layers to 
 
 tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
 
