@@ -9,7 +9,7 @@ activation function in the hidden layer. It turned out that it doesn't work well
 **Experimentating with convolutional and pooling layers**
 
 </ul>
-<li>Next I experimented with adding one more convolutional and one more pooling layer 
+<li> Next I experimented with adding one more convolutional and one more pooling layer 
 with same filter size. That means I added 
 
 tf.keras.layers.Conv2D(32, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)),
