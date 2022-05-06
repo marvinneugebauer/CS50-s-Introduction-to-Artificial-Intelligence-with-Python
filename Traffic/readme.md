@@ -4,7 +4,10 @@
  <li> First, I started with an almost identical configuration (i.e. same number of convolutional and pooling layers, same number of sizes of filters for 
  convolutional layers, etc.) as in handwriting.py from the lecture with one modification. The modification was that I used the sigmoid function as an 
 activation function in the hidden layer. It turned out that it doesn't work well, with a result accuracy= 0.0587.
+</ul>
 
+
+</ul>
 <li>Next I experimented with adding one more convolutional and one more pooling layer 
 with same filter size. That means I added 
 
