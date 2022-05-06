@@ -1,5 +1,6 @@
 #  Experimentation Process
 > SS
+> DD
 **Starting the Process**
 <ul> 
  <li> First, I started with an almost identical configuration (i.e. same number of convolutional and pooling layers, same number of sizes of filters for 
