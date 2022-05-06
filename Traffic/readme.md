@@ -6,6 +6,7 @@
 activation function in the hidden layer. It turned out that it doesn't work well, with a result accuracy= 0.0587.
 </ul>
 
+**Experimentating with convolutional and pooling layers**
 
 </ul>
 <li>Next I experimented with adding one more convolutional and one more pooling layer 
