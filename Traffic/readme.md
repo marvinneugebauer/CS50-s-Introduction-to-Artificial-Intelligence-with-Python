@@ -19,7 +19,7 @@ activation function in the hidden layer. It turned out that it doesn't work well
  
 <li> First, I tried to reduce the filter size of both convolutional layers to 
 
-<li> tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
+<li> > tf.keras.layers.Conv2D(16, (3, 3), activation="relu", input_shape=(IMG_WIDTH, IMG_HEIGHT, 3)).
 
 <li> That had a huge impact and the result was an accuracy of 0.9735. If I reduced only the filter size of the first convolutional layer from (32, (3, 3)  to (16, (3, 3) the effect was still huge, with an accuracy of 0.9423. That means the accuracy was a slightly worse.
 
