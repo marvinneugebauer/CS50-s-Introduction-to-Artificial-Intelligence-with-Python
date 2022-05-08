@@ -6,10 +6,15 @@ Topics that are covering by that course
 <li>knowledge representation</li>
 <li>logical inference</li>
 <li>probability theory</li>
+<li>probability theory</li>
+  
   
 </ul>
 
 #  Discription of the Projects
+
+- A. First option.
+- **B.** Second option with bold.
 
 #  References
 https://cs50.harvard.edu/ai/2020/
