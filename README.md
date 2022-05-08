@@ -12,4 +12,4 @@ Topics that are covering by that course
 #  Discription of the Projects
 
 #  References
-
+https://cs50.harvard.edu/ai/2020/
