@@ -7,8 +7,10 @@ Topics that are covering by that course are
 - **probability theory** 
 - **Bayesian networks**
 - **Markov models**
-- **constraint satisfaction**
-  
+- **machine learning**
+- **reinforcement learning**
+- **neural networks**
+- **natural language processing**
   
 
 
