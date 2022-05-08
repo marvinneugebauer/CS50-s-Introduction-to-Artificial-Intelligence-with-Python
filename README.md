@@ -17,7 +17,7 @@ Topics that are covering by that course
 #  Discription of the Projects
 
 - **Project: Degrees**
- - Second option with bold.
+ -  For two sets of CSV data files, where file contains the same names, and the same structure, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them. 
 
 #  References
 https://cs50.harvard.edu/ai/2020/
