@@ -2,8 +2,8 @@
 Topics that are covering by that course
 <ul>
 <li>graph search algorithms </li>
-<li> Second Item
 <li>adversarial search</li>
+<li>knowledge representation</li>
 </ul>
 #  References
 
