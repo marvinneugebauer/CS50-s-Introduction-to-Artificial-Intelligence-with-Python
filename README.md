@@ -4,7 +4,9 @@ Topics that are covering by that course
 <li>graph search algorithms </li>
 <li>adversarial search</li>
 <li>knowledge representation</li>
-<li>**logical inference**</li>
+<li>logical inference</li>
+<li>probability theory</li>
+  
 </ul>
 
 #  References
