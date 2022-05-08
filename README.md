@@ -5,5 +5,6 @@ Topics that are covering by that course
 <li>adversarial search</li>
 <li>knowledge representation</li>
 </ul>
+
 #  References
 
