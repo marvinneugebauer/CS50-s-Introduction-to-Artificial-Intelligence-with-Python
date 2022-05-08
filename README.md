@@ -23,7 +23,7 @@ Topics that are covering by that course
 - **Project: Knights**
     + Determine how to represent "Knights and Knaves" puzzles using **propositional logic**, such that an AI running a **model-checking algorithm** could solve these puzzles for us. An implemenation of that problem can be found in logic.py together with puzzle.py.
 - **Project: Minesweeper**
-    + Determine how to represent "Knights and Knaves" puzzles using **propositional logic**, such that an AI running a **model-checking algorithm** could solve these puzzles for us. An implemenation of that problem can be found in logic.py together with puzzle.py.    
+    + Your goal in this project is to build an AI that can play Minesweeper. In doing so we use knowledge-based agents that make decisions by considering their knowledge base, and making inferences based on that knowledge.  
  
 
 #  References
