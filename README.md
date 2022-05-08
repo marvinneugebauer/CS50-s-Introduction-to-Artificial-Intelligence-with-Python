@@ -5,7 +5,7 @@ Topics that are covering by that course
 - **knowledge representation**
 - **logical inference** 
 - **probability theory** 
-- **probability theory**
+- **Bayesian networks**
   
   
 
