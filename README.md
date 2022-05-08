@@ -1,15 +1,14 @@
 # CS50's Introduction to Artificial Intelligence with Python
 Topics that are covering by that course
-<ul>
-<li>graph search algorithms </li>
-<li>adversarial search</li>
-<li>knowledge representation</li>
-<li>logical inference</li>
-<li>probability theory</li>
-<li>probability theory</li>
+- graph search algorithms 
+- adversarial search
+- knowledge representation
+- logical inference 
+- probability theory 
+- probability theory
   
   
-</ul>
+
 
 #  Discription of the Projects
 
