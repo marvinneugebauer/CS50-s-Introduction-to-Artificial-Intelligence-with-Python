@@ -16,7 +16,7 @@ Topics that are covering by that course
 
 #  Discription of the Projects
 
-- A. First option.
+- **Project:Degrees**
 - **B.** Second option with bold.
 
 #  References
