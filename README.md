@@ -21,7 +21,7 @@ Topics that are covering by that course
 - **Project: Tictactoe**
     + Using the **Minimax algorithm**, implement an AI in tictactoe.py to play Tic-Tac-Toe optimally.
 - **Project: Knights**
-    + Determine how to represent  Knights and Knaves puzzles using propositional logic, such that an AI running a model-checking algorithm could solve these puzzles for us. The implemenation of that problem can be found in logic.py as well as in puzzle.py.    
+    + Determine how to represent "Knights and Knaves" puzzles using propositional logic, such that an AI running a model-checking algorithm could solve these puzzles for us. The implemenation of that problem can be found in logic.py as well as in puzzle.py.    
  
 
 #  References
