@@ -16,8 +16,8 @@ Topics that are covering by that course
 
 #  Discription of the Projects
 
-- **Project:Degrees**
-- **B.** Second option with bold.
+- **Project: Degrees**
+- - Second option with bold.
 
 #  References
 https://cs50.harvard.edu/ai/2020/
