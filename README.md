@@ -6,6 +6,8 @@ Topics that are covering by that course
 - **logical inference** 
 - **probability theory** 
 - **Bayesian networks**
+- **Markov models**
+- **constraint satisfaction**
   
   
 
