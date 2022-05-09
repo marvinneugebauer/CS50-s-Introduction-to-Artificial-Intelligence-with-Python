@@ -29,7 +29,7 @@ Topics that are covering by that course
 - **Project: Heredity**
     + In this project we use a **Bayesian Network** in ``heredity.py`` to make inferences about a population. Given information about people, who their parents are, and whether they have a particular observable trait (e.g. hearing loss) caused by a given gene, our AI will infer the probability distribution for each person’s genes, as well as the probability distribution for whether any person will exhibit the trait in question.
 - **Project: Crossword**
-    + In this project we write an AI to generate and solve crossword puzzles. Given the structure of a crossword puzzle (i.e., which squares of the grid are meant to be filled in with a letter), and a list of words to use, the problem becomes one of choosing which words should go in each vertical or horizontal sequence of squares. Therefore we model this sort of problem as a **constraint satisfaction problem** and use the AC3 algorithm in order to solve that problem. 
+    + In this project we write an AI to generate and solve crossword puzzles. Given the structure of a crossword puzzle (i.e., which squares of the grid are meant to be filled in with a letter), and a list of words to use, the problem becomes one of choosing which words should go in each vertical or horizontal sequence of squares. Therefore we model this sort of problem as a **constraint satisfaction problem** and use the **AC3 algorithm** in order to solve that problem. An implemenation of that problem can be found in ``generate.py`` together with ``crossword.py``. 
  
 
 #  References
