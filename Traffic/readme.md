@@ -21,9 +21,9 @@ activation function in the hidden layer. It turned out that it doesn't work well
 
  
 **Experimenting with dropout sizes**
-- If I changed the dropout from 0.5 to 0.3 for the best configuration, I received an accuracy of ``0.9734`` compared to ``0.9735`` for a dropout of ``0.5``. If I enlarged thedropout from ``0.5`` to ``0.7``, I observed a huge negative effect, so that the accuracy was only ``0.0566``. Last I added a new hidden layer with the following properties
+- If I changed the dropout from ``0.5`` to ``0.3`` for the best configuration, I received an accuracy of ``0.9734`` compared to ``0.9735`` for a dropout of ``0.5``. If I enlarged thedropout from ``0.5`` to ``0.7``, I observed a huge negative effect, so that the accuracy was only ``0.0566``. Last I added a new hidden layer with the following properties
   + ``tf.keras.layers.Dense(128, activation="sigmoid")``
   + ``tf.keras.layers.Dropout(0.5)``
-- As a result I recieved an accuracy of 0.8810 compared to 0.9735, which I got for the best configuration.
+- As a result I recieved an accuracy of ``0.8810`` compared to ``0.9735``, which I got for the best configuration.
 
 
