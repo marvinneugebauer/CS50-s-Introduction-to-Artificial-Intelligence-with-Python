@@ -23,9 +23,9 @@ Topics that are covering by that course
 - **Project: Knights**
     + Determine how to represent "Knights and Knaves" puzzles using **propositional logic**, such that an AI running a **model-checking algorithm** could solve these puzzles for us. An implemenation of that problem can be found in ``logic.py`` together with ``puzzle.py``.
 - **Project: Minesweeper**
-    + The goal in this project is to build an AI that can play Minesweeper. In doing so we use knowledge-based agents that make decisions by considering their knowledge base, and making inferences based on that knowledge. An implemenation of that problem can be found in minesweeper.py together with runner.py.
+    + The goal in this project is to build an AI that can play Minesweeper. In doing so we use knowledge-based agents that make decisions by considering their knowledge base, and making inferences based on that knowledge. An implemenation of that problem can be found in ``minesweeper.py`` together with ``runner.py``.
 - **Project: PageRank**
-    + In this project, we implementing the **PageRank’s algorithm**. In order to calculate PageRank we are using a combination of two approaches in pagerank.py: First by sampling pages from a Markov Chain random surfer. Second by iteratively applying the PageRank formula.
+    + In this project, we implementing the **PageRank’s algorithm**. In order to calculate PageRank we are using a combination of two approaches in ``pagerank.py``: First by sampling pages from a Markov Chain random surfer. Second by iteratively applying the PageRank formula.
 - **Project: Heredity**
     + In this project we use a **Bayesian Network** in heredity.py to make inferences about a population. Given information about people, who their parents are, and whether they have a particular observable trait (e.g. hearing loss) caused by a given gene, our AI will infer the probability distribution for each person’s genes, as well as the probability distribution for whether any person will exhibit the trait in question.
 - **Project: Crossword**
