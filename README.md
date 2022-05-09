@@ -17,7 +17,7 @@ Topics that are covering by that course
 #  Discription of the Projects
 
 - **Project: Degrees**
-    +  For two sets of CSV data files, where each file contains the same names, and the same structure, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them. Therefore we are using the **breadth-first search algorithm** in <degrees.py>.
+    +  For two sets of CSV data files, where each file contains the same names, and the same structure, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them. Therefore we are using the **breadth-first search algorithm** in degrees.py.
 - **Project: Tictactoe**
     + Using the **Minimax algorithm**, implement an AI in tictactoe.py to play Tic-Tac-Toe optimally.
 - **Project: Knights**
@@ -25,7 +25,7 @@ Topics that are covering by that course
 - **Project: Minesweeper**
     + The goal in this project is to build an AI that can play Minesweeper. In doing so we use knowledge-based agents that make decisions by considering their knowledge base, and making inferences based on that knowledge. An implemenation of that problem can be found in minesweeper.py together with runner.py.
 - **Project: PageRank**
-    + In this project, we implementing the **PageRank’s algorithm**. In order to calculate PageRank we are using a combination of two approaches: First by sampling pages from a Markov Chain random surfer. Second by iteratively applying the PageRank formula. <span style="color: red;">text</span>    
+    + In this project, we implementing the **PageRank’s algorithm**. In order to calculate PageRank we are using a combination of two approaches in pagerank.py: First by sampling pages from a Markov Chain random surfer. Second by iteratively applying the PageRank formula.   
  
 
 #  References
