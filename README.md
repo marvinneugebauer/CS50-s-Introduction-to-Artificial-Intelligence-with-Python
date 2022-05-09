@@ -25,7 +25,7 @@ Topics that are covering by that course
 - **Project: Minesweeper**
     + The goal in this project is to build an AI that can play Minesweeper. In doing so we use knowledge-based agents that make decisions by considering their knowledge base, and making inferences based on that knowledge. An implemenation of that problem can be found in minesweeper.py together with runner.py.
 - **Project: PageRank**
-    + The goal in this project is to build an AI that can play Minesweeper. In doing so we use knowledge-based agents that make decisions by considering their knowledge base, and making inferences based on that knowledge. An implemenation of that problem can be found in minesweeper.py together with runner.py.    
+    + In this project, we implementing both such approaches for calculating PageRank – calculating both by sampling pages from a Markov Chain random surfer and by iteratively applying the PageRank formula.    
  
 
 #  References
