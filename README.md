@@ -31,7 +31,7 @@ Topics that are covering by that course
 - **Project: Crossword**
     + In this project we write an AI to generate and solve crossword puzzles. Given the structure of a crossword puzzle (i.e., which squares of the grid are meant to be filled in with a letter), and a list of words to use, the problem becomes one of choosing which words should go in each vertical or horizontal sequence of squares. Therefore we model this sort of problem as a **constraint satisfaction problem** and use the **AC3 algorithm** in order to solve that problem. An implemenation of that problem can be found in ``generate.py`` together with ``crossword.py``. 
 - **Project: Shopping**
-    + In this project we write a nearest-neighbor classifier to predict whether online shopping customers will complete a purchas. An implemenation of that problem can be found in ``generate.py`` together with ``crossword.py``. 
+    + In this project we write a nearest-neighbor classifier to predict whether online shopping customers will complete a purchas. An implemenation of that problem can be found in ``shopping.py``. 
  
 
 #  References
