@@ -17,7 +17,7 @@ Topics that are covering by that course
 #  Discription of the Projects
 
 - **Project: Degrees**
-    +  For two sets of CSV data files, where each file contains the same names, and the same structure, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them. Therefore we are using the **breadth-first search algorithm** in '''degrees.py'''.
+    +  For two sets of CSV data files, where each file contains the same names, and the same structure, we’re interested in finding the shortest path between any two actors by choosing a sequence of movies that connects them. Therefore we are using the **breadth-first search algorithm** in ``degrees.py ``.
 - **Project: Tictactoe**
     + Using the **Minimax algorithm**, implement an AI in tictactoe.py to play Tic-Tac-Toe optimally.
 - **Project: Knights**
