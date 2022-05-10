@@ -39,7 +39,7 @@ Topics that are covering by that course
 - **Project: Parser**
     + The goal in this project is to build an AI to parse sentences and extract noun phrases. Therefore we use **Natural Language Toolkit** (NLTK) together with a **context-free grammar formalism** to parse English sentences in ``parser.py``. 
 - **Project: Questions**
-    + The goal in this project is to build an AI to parse sentences and extract noun phrases. Therefore we use **Natural Language Toolkit** (NLTK) together with a **context-free grammar formalism** to parse English sentences in ``parser.py``. 
+    + The goal in this project is to design an AI that can answer questions. Our AI will perform two tasks: document retrieval and passage retrieval. Our AI have access to a corpus of text documents. When presented with a query (a question in English asked by the user), document retrieval will first identify which document(s) are most relevant to the query. 
  
 
 #  References
