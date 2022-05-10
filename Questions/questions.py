@@ -105,7 +105,8 @@ def compute_idfs(documents):
     Any word that appears in at least one of the documents should be in the
     resulting dictionary.
     """
-    words = set()  # create a set that should contain all words in documents that that appear at least in one of the documents
+     # Create a set that should contain all words in documents that that appear at least in one of the documents
+    words = set() 
 
     # Get all words in documents that appear at least in one of the documents
 
@@ -182,7 +183,9 @@ def top_sentences(query, sentences, idfs, n):
     """
 
     if n < len(sentences):
-        sentences_idfs_density = dict() # sentences_idfs_density is a dictionary that mapping each sentence to its sum of IDF values for each word in the sentence and to its query term density
+        # Sentences_idfs_density is a dictionary that mapping each sentence to its sum of IDF values for each word in the sentence 
+        # and to its query term density
+        sentences_idfs_density = dict() 
 
         for sentence in sentences:  # Iterate over all sentence in the dictionary
             sum_sentence_idfs = 0
@@ -194,7 +197,7 @@ def top_sentences(query, sentences, idfs, n):
             query_term_density = sum_density / len(sentence)
             sentences_idfs_density[sentence] = (sum_sentence_idfs, query_term_density)
 
-        #Sort sentences_idfs_density by the idf value of each word (first) and its query term density (second)
+        # Sort sentences_idfs_density by the idf value of each word (first) and its query term density (second)
         top_sentence = sorted(sentences_idfs_density,
                               key=lambda k: (sentences_idfs_density[k][0], sentences_idfs_density[k][1]), reverse=True)
 
