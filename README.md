@@ -35,7 +35,7 @@ Topics that are covering by that course
 - **Project: Nim**
     + In this project we write an AI that teaches itself to play Nim through **reinforcement learning**. In particular, we use the **Q-learning** algorithm for this project. The implementation of that problem can be found in ``play.py `` and  ``nim.py ``.
 - **Project: Traffic**
-    + In this project, you’ll use **TensorFlow** to build a **convolutional neural network** to classify road signs based on an image of those signs. To do so, you’ll need a labeled dataset: a collection of images that have already been categorized by the road sign represented in them.
+    + In this project, you’ll use **TensorFlow** to build a **convolutional neural network** to classify road signs based on an image of those signs. To do so, we deploy a labeled dataset, which is in our case: a collection of images that have already been categorized by the road sign represented in them.
  
 
 #  References
