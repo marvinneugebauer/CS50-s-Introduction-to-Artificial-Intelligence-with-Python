@@ -33,7 +33,7 @@ Topics that are covering by that course
 - **Project: Shopping**
     + In this project we write a nearest-neighbor classifier to predict whether online shopping customers will complete a purchas. An implemenation of that problem can be found in ``shopping.py``.
 - **Project: Nim**
-    + In this project we write an AI that teaches itself to play Nim through **reinforcement learning**.  
+    + In this project we write an AI that teaches itself to play Nim through **reinforcement learning**. In particular, we use the **Q-learning** algorithm for this project. The implementation of that problem can be found in ``play.py `` and  ``nim.py ``.
  
 
 #  References
