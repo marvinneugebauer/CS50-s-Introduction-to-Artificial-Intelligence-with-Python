@@ -35,7 +35,7 @@ Topics that are covering by that course
 - **Project: Nim**
     + In this project we write an AI that teaches itself to play Nim through **reinforcement learning**. In particular, we use the **Q-learning** algorithm for this project. The implementation of that problem can be found in ``play.py `` and  ``nim.py ``.
 - **Project: Traffic**
-    + In this project, we use **TensorFlow** to build a **convolutional neural network** to classify road signs based on an image of those signs in  ``traffic.py ``. To do so, we deploy a labeled dataset, which is in our case German Traffic Sign Recognition Benchmark (GTSRB) dataset: a collection of images that have already been categorized by the road sign represented in them.
+    + In this project, we use **TensorFlow** to build a **convolutional neural network** to classify road signs based on an image of those signs in  ``traffic.py ``. To do so, we deploy a labeled dataset, which is in our case the German Traffic Sign Recognition Benchmark (GTSRB) dataset: a collection of images that have already been categorized by the road sign represented in them.
 - **Project: Parser**
     + The goal in this project is to build an AI to parse sentences and extract noun phrases. Therefore we use **Natural Language Toolkit** (NLTK) together with a **context-free grammar formalism** to parse English sentences in ``parser.py``. 
 - **Project: Questions**
