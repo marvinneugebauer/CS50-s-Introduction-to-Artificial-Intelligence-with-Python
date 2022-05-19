@@ -19,7 +19,9 @@ def initial_state():
 
 
 def player(board):
-    # Returns player who has the next turn on a board.
+    """
+    Returns player who has the next turn on a board.
+    """
 
     count_empty = 0
     count_X = 0
