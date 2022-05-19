@@ -1,8 +1,6 @@
 import math
 from copy import deepcopy
 
-# import sys
-
 
 X = "X"
 O = "O"
